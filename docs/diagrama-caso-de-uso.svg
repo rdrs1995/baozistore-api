@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1066" viewBox="0 0 1120 1066" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="seta" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#222" stroke-width="1.4"/></marker></defs>
+<rect width="1120" height="1066" fill="#ffffff"/>
+<text x="560.0" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111">Diagrama de Caso de Uso - API REST Baozi Store</text>
+<rect x="330" y="70" width="760" height="971" fill="#fbfbfd" stroke="#222" stroke-width="1.6"/>
+<text x="350" y="98" font-size="16" font-weight="bold" fill="#111">API REST Baozi Store</text>
+<circle cx="140" cy="538.0" r="18" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="140" y1="556.0" x2="140" y2="613.0" stroke="#222" stroke-width="2"/>
+<line x1="108" y1="578.0" x2="172" y2="578.0" stroke="#222" stroke-width="2"/>
+<line x1="140" y1="613.0" x2="114" y2="658.0" stroke="#222" stroke-width="2"/>
+<line x1="140" y1="613.0" x2="166" y2="658.0" stroke="#222" stroke-width="2"/>
+<text x="140" y="684.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">Usuário da API</text>
+<line x1="174" y1="583.0" x2="395" y2="150" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="206" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="262" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="318" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="374" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="456" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="512" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="568" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="624" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="680" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="762" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="818" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="874" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="930" stroke="#333" stroke-width="1.2"/>
+<line x1="174" y1="583.0" x2="395" y2="986" stroke="#333" stroke-width="1.2"/>
+<ellipse cx="560" cy="150" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="147" text-anchor="middle" font-size="14.5" fill="#111">Cadastrar Cliente</text>
+<text x="560" y="164" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">POST /clientes</text>
+<ellipse cx="560" cy="206" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="203" text-anchor="middle" font-size="14.5" fill="#111">Listar Clientes</text>
+<text x="560" y="220" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">GET /clientes</text>
+<ellipse cx="560" cy="262" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="259" text-anchor="middle" font-size="14.5" fill="#111">Consultar Cliente por ID</text>
+<text x="560" y="276" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">GET /clientes/{id}</text>
+<ellipse cx="560" cy="318" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="315" text-anchor="middle" font-size="14.5" fill="#111">Atualizar Cliente</text>
+<text x="560" y="332" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">PUT /clientes/{id}</text>
+<ellipse cx="560" cy="374" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="371" text-anchor="middle" font-size="14.5" fill="#111">Excluir Cliente</text>
+<text x="560" y="388" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">DELETE /clientes/{id}</text>
+<ellipse cx="560" cy="456" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="453" text-anchor="middle" font-size="14.5" fill="#111">Cadastrar Produto</text>
+<text x="560" y="470" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">POST /produtos</text>
+<ellipse cx="560" cy="512" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="509" text-anchor="middle" font-size="14.5" fill="#111">Listar Produtos</text>
+<text x="560" y="526" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">GET /produtos</text>
+<ellipse cx="560" cy="568" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="565" text-anchor="middle" font-size="14.5" fill="#111">Consultar Produto por ID</text>
+<text x="560" y="582" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">GET /produtos/{id}</text>
+<ellipse cx="560" cy="624" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="621" text-anchor="middle" font-size="14.5" fill="#111">Atualizar Produto</text>
+<text x="560" y="638" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">PUT /produtos/{id}</text>
+<ellipse cx="560" cy="680" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="677" text-anchor="middle" font-size="14.5" fill="#111">Excluir Produto</text>
+<text x="560" y="694" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">DELETE /produtos/{id}</text>
+<ellipse cx="560" cy="762" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="759" text-anchor="middle" font-size="14.5" fill="#111">Registrar Pedido</text>
+<text x="560" y="776" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">POST /pedidos</text>
+<ellipse cx="560" cy="818" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="815" text-anchor="middle" font-size="14.5" fill="#111">Listar Pedidos</text>
+<text x="560" y="832" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">GET /pedidos</text>
+<ellipse cx="560" cy="874" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="871" text-anchor="middle" font-size="14.5" fill="#111">Consultar Pedido por ID</text>
+<text x="560" y="888" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">GET /pedidos/{id}</text>
+<ellipse cx="560" cy="930" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="927" text-anchor="middle" font-size="14.5" fill="#111">Atualizar Pedido</text>
+<text x="560" y="944" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">PUT /pedidos/{id}</text>
+<ellipse cx="560" cy="986" rx="165" ry="25" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="560" y="983" text-anchor="middle" font-size="14.5" fill="#111">Excluir Pedido</text>
+<text x="560" y="1000" text-anchor="middle" font-size="11.5" fill="#555" font-family="Consolas, monospace">DELETE /pedidos/{id}</text>
+<ellipse cx="905" cy="846.0" rx="130" ry="29" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+<text x="905" y="843.0" text-anchor="middle" font-size="14.5" fill="#111">Validar Cliente e Produto</text>
+<text x="905" y="860.0" text-anchor="middle" font-size="11.5" fill="#555">(existentes no cadastro)</text>
+<line x1="725" y1="762" x2="781" y2="832.0" stroke="#222" stroke-width="1.3" stroke-dasharray="7 5" marker-end="url(#seta)"/>
+<text x="767.0" y="787.0" text-anchor="start" font-size="13" fill="#111">«include»</text>
+<line x1="725" y1="930" x2="781" y2="860.0" stroke="#222" stroke-width="1.3" stroke-dasharray="7 5" marker-end="url(#seta)"/>
+<text x="767.0" y="917.0" text-anchor="start" font-size="13" fill="#111">«include»</text>
+</svg>
